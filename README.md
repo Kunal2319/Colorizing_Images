@@ -18,7 +18,7 @@ The model was trained for a total of 15 epochs due to time constraints. For opti
 
 ## Results
 
-![Alt Text](paste-the-copied-url-here)
+![Alt Text](https://github.com/Kunal2319/Colorizing_Images/blob/main/Result.png)
 
 ## Future Work
 
