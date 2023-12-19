@@ -1,3 +1,34 @@
-# Colorizing_Images
-One of the most exciting applications of deep learning is colorizing black and white images. This task needed a lot of human input and hardcoding several years ago but now the whole process can be done end-to-end with the power of AI and deep learning.Image-to-Image Translation with Conditional Adversarial Networks paper, popularly known by the name pix2pix, proposed a general solution to many image-to-image tasks in deep learning which one of those was colorization. In this approach two losses are used: L1 loss, which makes it a regression task, and an adversarial (GAN) loss, which helps to solve the problem in an unsupervised manner (by assigning the outputs a number indicating how "real" they look!).In this project I have  implemented what the authors did in the paper.
-I trained my model for 15 epochs as it was time consuming. The output after 15 epochs is attached.The results would be more satisfactory if we train the the model for larger number of epochs (say 100).
+# Image Colorization using pix2pix
+
+## Overview
+
+This project explores the exciting application of deep learning in colorizing black-and-white images. Traditionally, colorization required significant human input and hard coding. However, with the advancements in AI and deep learning, the entire process can now be done end-to-end. The implementation is based on the "Image-to-Image Translation with Conditional Adversarial Networks" paper, commonly known as pix2pix, which proposed a general solution for various image-to-image tasks, including colorization.
+
+## Implementation Details
+
+The pix2pix approach employs two key losses for effective image colorization:
+
+- **L1 Loss:** This loss function turns the colorization task into a regression problem, ensuring that the predicted colors are close to the ground truth.
+
+- **Adversarial (GAN) Loss:** The adversarial loss helps solve the problem in an unsupervised manner. It assigns a score to the outputs based on how "real" they appear, enhancing the overall realism of the colorized images.
+
+## Training
+
+The model was trained for a total of 15 epochs due to time constraints. For optimal results, it is recommended to train the model for a more extended period, such as 100 epochs. The attached output after 15 epochs provides a glimpse of the colorization capabilities, and the results are expected to be more satisfactory with longer training durations.
+
+## Results
+
+
+
+## Future Work
+
+- **Extended Training:** Consider training the model for a larger number of epochs, e.g., 100, for potentially more satisfactory results.
+
+- **Fine-tuning:** Experiment with model hyperparameters and architecture to further improve colorization performance.
+
+## Contributions
+
+Contributions and suggestions to enhance the project are welcome. Feel free to fork the repository, create a new branch, make your changes, and submit a pull request. Additionally, report any issues or bugs through the repository's issue tracker.
+
+Thank you for exploring the fascinating world of image colorization with pix2pix!
+
